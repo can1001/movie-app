@@ -7,7 +7,7 @@ class Movie extends Component {
 
     static propTypes = {
         title: PropTypes.string.isRequired,
-        poster: PropTypes.string
+        poster: PropTypes.string.isRequired
     }
 
 
